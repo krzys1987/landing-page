@@ -9,15 +9,14 @@ $font-bold:"/vendor/Droid-Serif-Font/DroidSeriff-Bold.ttf";
 
 #first-page
 
-first-page {
-    background-image: "/vendor/pexels-blaz.jpg";
+.menu-list {
+    display: inline-block;
 }
 
-.navbar {
-    navbar-nav {
-        display: inline-block;
-
-    }
+.menu-link {
+    list-style-type: none;
+    color: white;
+    font: $font-regular;
 }
 
 #services-page
