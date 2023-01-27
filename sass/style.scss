@@ -1,0 +1,54 @@
+#General
+
+#Droid-Serif-Font
+$font-italic:"/vendor/Droid-Serif-Font/DroidSeriff-Italic";
+$font-regular:"/vendor/Droid-Serif-Font/DroidSeriff-Regular";
+$font-bold:"/vendor/Droid-Serif-Font/DroidSeriff-Bold.ttf";
+
+#Display
+
+#first-page
+
+first-page {
+    background-image:"vendor/pexe...";
+}
+
+.navbar {
+    navbar-nav {
+        display: inline-block;
+
+    }
+}
+
+#services-page
+
+#portfolio-page
+
+.portfolio-image {
+    position: relative;
+    width: 291px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.portfolio-file {
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+#Footer
+
+footer {
+    display: flex;
+
+}
+
+.socials {
+    display: inline-block;
+
+}
+
+#Navigation
+
+#Various
