@@ -10,11 +10,14 @@ $font-bold:"/vendor/Droid-Serif-Font/DroidSeriff-Bold.ttf";
 #first-page
 
 .menu-list {
-    display: inline-block;
-}
+        li {
+            display: inline;
+            list-style-type: none;
+        }
+  }
 
 .menu-link {
-    list-style-type: none;
+    display: inline;
     color: white;
     font: $font-regular;
 }
