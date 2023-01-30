@@ -20,11 +20,13 @@ $font-bold:"/vendor/Droid-Serif-Font/DroidSeriff-Bold.ttf";
 
 .logo {
     float: left;
+    padding-top: 10px;
 }
 
 .menu-list {
     overflow: auto;
     list-style-type: none;
+    padding-top: 10px;
 }
 
 .menu-link {
