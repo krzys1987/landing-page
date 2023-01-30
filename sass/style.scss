@@ -10,30 +10,35 @@ $font-bold:"/vendor/Droid-Serif-Font/DroidSeriff-Bold.ttf";
 #first-page
 
 .first-page {
-    background-image: url('/images/background-Kodilla.png');
+    background-image: url('../images/background-Kodilla.png');
 }
 
 .navigation {
-    display: flex;
+    /* display: flex; */
 
 }
+
+.logo {
+    float: left;
+}
+
 .menu-list {
     overflow: auto;
     list-style-type: none;
-        .menu-link {
-            float: right;
-            color: white;
-            font: $font-regular;
-            padding-top: 15px;
-            margin-right: 30px;
-            justify-content: space-around;
-        }
-  }
+}
 
 .menu-link {
     display: inline;
-    
+    float: left;
+    color: white;
+    font: $font-regular;
+    padding-top: 15px;
+    margin-right: 30px;
+    justify-content: space-around;
+    clear: both;
 }
+            
+
 
 .button1 {
     color: white;
@@ -53,8 +58,16 @@ $font-bold:"/vendor/Droid-Serif-Font/DroidSeriff-Bold.ttf";
 
 #portfolio-page
 
+.col-md-4 {
+    /* Style for "Background" */
+    width: 291px;
+    height: 393px;
+    background-color: #ffffff;
+}
+
 .portfolio-image {
     position: relative;
+    /* Style for "Image" */
     width: 291px;
     height: 300px;
     overflow: hidden;
