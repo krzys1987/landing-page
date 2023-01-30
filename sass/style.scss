@@ -130,7 +130,8 @@ footer {
 }
 
 .copywright {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
     width: 255px;
     height: 14px;
     color: #555555;
