@@ -73,8 +73,38 @@ footer {
 
 }
 
+.copywright {
+    display: inline-block;
+    width: 255px;
+    height: 14px;
+    color: #555555;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 22px;
+    text-align: left;
+/* Text style for "© Copyrigh" */
+    font-style: normal;
+    letter-spacing: -0.35px;
+    line-height: normal;
+
+}
+
 .socials {
     display: inline-block;
+    margin-left: 699px;
+    margin-right: 840px;
+    list-style-type: none;
+    padding: 53 0 53 0;
+
+
+}
+
+.socials i {
+    width: 41px;
+    height: 40px;
 
 }
 
