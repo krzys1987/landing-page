@@ -66,6 +66,40 @@ $font-bold:"/vendor/Droid-Serif-Font/DroidSeriff-Bold.ttf";
     height: auto;
 }
 
+.portfolio-title {
+/* Style for "Ebony & Iv" */
+    width: 120px;
+    height: 18px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+/* Text style for "E, bony &" */
+    font-style: normal;
+    letter-spacing: -0.45px;
+    line-height: normal;
+}
+
+.portfolio-desc {
+/* Style for "Branding" */
+    width: 63px;
+    height: 15px;
+    color: #737373;
+    font-family: "Droid Serif";
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+/* Text style for "B, randing" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
 #Footer
 
 footer {
