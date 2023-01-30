@@ -30,6 +30,7 @@ $font-bold:"/vendor/Droid-Serif-Font/DroidSeriff-Bold.ttf";
 .menu-link {
     display: inline;
     float: left;
+    justify-content: space-between;
     color: white;
     font: $font-regular;
     padding-top: 15px;
