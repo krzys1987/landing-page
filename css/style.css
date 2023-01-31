@@ -1,9 +1,9 @@
 /* Error: expected "{".
  *   ,
- * 4 | $font-italic: url('../vendor/Droid-Serif-Font/DroidSerif-Regular.ttf');
- *   |                                                                       ^
+ * 9 |          url('/vendor/Droid-Serif-Font/DroidSerif-Bold.ttf');
+ *   |                                                             ^
  *   '
- *   sass\style.scss 4:71  root stylesheet */
+ *   sass\style.scss 9:61  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: expected \"{\".\a   \2577 \a 4 \2502  $font-italic: url('../vendor/Droid-Serif-Font/DroidSerif-Regular.ttf');\d\a   \2502                                                                        ^\a   \2575 \a   sass\\style.scss 4:71  root stylesheet";
+  content: "Error: expected \"{\".\a   \2577 \a 9 \2502           url('/vendor/Droid-Serif-Font/DroidSerif-Bold.ttf');\d\a   \2502                                                              ^\a   \2575 \a   sass\\style.scss 9:61  root stylesheet";
 }
