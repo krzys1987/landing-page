@@ -1,11 +1,10 @@
-#General
+/* General */
 
 @font-face { 
     $font-family: 'Inconsolata', monospace;
     font-family: 'PT Serif', serif;
 
 }
-
 
 #first-page
 
@@ -14,7 +13,7 @@
 }
 
 .navigation {
-    /* display: flex; */
+/* display: flex; */
 
 }
 
@@ -57,13 +56,13 @@
 
 }
 
-#services-page
+/* services-page */
 
-#portfolio-page
+/* portfolio-page */
 
 
 .portfolio-page {
-/* Style for "Background" */
+    /* Style for "Background" */
     width: 1557px;
     height: 1218px;
     background-color: #f7f7f7;
@@ -124,7 +123,7 @@
     letter-spacing: normal;
     line-height: normal;
 }
-#Footer
+/* Footer */
 
 footer {
     display: flex;

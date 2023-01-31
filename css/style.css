@@ -1,9 +1,9 @@
-/* Error: expected "{".
+/* Error: expected selector.
  *   ,
- * 9 |          url('/vendor/Droid-Serif-Font/DroidSerif-Bold.ttf');
- *   |                                                             ^
+ * 1 | #General
+ *   |         ^
  *   '
- *   sass\style.scss 9:61  root stylesheet */
+ *   sass\style.scss 1:9  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: expected \"{\".\a   \2577 \a 9 \2502           url('/vendor/Droid-Serif-Font/DroidSerif-Bold.ttf');\d\a   \2502                                                              ^\a   \2575 \a   sass\\style.scss 9:61  root stylesheet";
+  content: "Error: expected selector.\a   \2577 \a 1 \2502  #General\d\a   \2502          ^\a   \2575 \a   sass\\style.scss 1:9  root stylesheet";
 }
