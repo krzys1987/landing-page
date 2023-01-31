@@ -1,6 +1,11 @@
 #General
-$font-family: 'Inconsolata', monospace;
-font-family: 'PT Serif', serif;
+
+@font-face { 
+    $font-family: 'Inconsolata', monospace;
+    font-family: 'PT Serif', serif;
+
+}
+
 
 #first-page
 
