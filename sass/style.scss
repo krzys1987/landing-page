@@ -1,12 +1,15 @@
 #General
 
-#Droid-Serif-Font
-$font-italic: url('../vendor/Droid-Serif-Font/DroidSerif-Regular.ttf');
-$font-regular: url('../vendor/Droid-Serif-Font/DroidSerif-Regular.ttf');
-$font-bold-italic: url('../vendor/Droid-Serif-Font/DroidSerif-BoldItalic.ttf');
-$font-bold: url('../vendor/Droid-Serif-Font/DroidSerif-Bold.ttf')
+@font-face {
+    font-family: droid-serif, serif;
+    font-style: normal;
+    font-weight: 400;
+    scr: url('/vendor/Droid-Serif-Font/DroidSerif-Italic.ttf');
+    scr: url('/vendor/Droid-Serif-Font/DroidSerif-Regular.ttf');
+         url('/vendor/Droid-Serif-Font/DroidSerif-Bold.ttf');
+         url('/vendor/Droid-Serif-Font/DroidSerif-BoldItalic.ttf');
+}
 
-#Display
 
 #first-page
 
