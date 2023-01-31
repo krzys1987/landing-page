@@ -11,10 +11,11 @@ font-family: 'Inconsolata', monospace;
     background-image: url('/images/background-Kodilla.png');
 }
 
+/* use float left instead of flex 
 .navigation {
-/* display: flex; */
-
-}
+    display: flex; 
+}    
+*/
 
 .logo {
     float: left;
