@@ -32,7 +32,7 @@
     float: left;
     justify-content: space-between;
     color: white;
-    font: $font-family;
+    font: 'Inconsolata', monospace;
     padding-top: 15px;
     margin-right: 30px;
     justify-content: space-around;
@@ -50,7 +50,7 @@
     font-size: 18px;
     font-weight: 700;
     font-style: normal;
-    font-family: $font-family;
+    font-family: 'Inconsolata', monospace;
     text-align: center;
 
 }
@@ -93,7 +93,7 @@
     width: 120px;
     height: 18px;
     color: #333333;
-    font-family: 'Inconsolata'', serif';
+    font-family: 'Inconsolata', monospace;
     font-size: 18px;
     font-weight: 700;
     font-style: normal;
@@ -135,7 +135,7 @@ footer {
     width: 255px;
     height: 14px;
     color: #555555;
-    font-family: Montserrat;
+    font-family: 'Inconsolata', monospace;
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
