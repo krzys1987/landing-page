@@ -1,5 +1,5 @@
 #General
-font-family: 'Inconsolata', monospace;
+$font-family: 'Inconsolata', monospace;
 font-family: 'PT Serif', serif;
 
 #first-page
@@ -29,7 +29,7 @@ font-family: 'PT Serif', serif;
     float: left;
     justify-content: space-between;
     color: white;
-    font: $font-regular;
+    font: $font-family;
     padding-top: 15px;
     margin-right: 30px;
     justify-content: space-around;
@@ -47,7 +47,7 @@ font-family: 'PT Serif', serif;
     font-size: 18px;
     font-weight: 700;
     font-style: normal;
-    font-family: $font-regular;
+    font-family: $font-family;
     text-align: center;
 
 }
@@ -90,7 +90,7 @@ font-family: 'PT Serif', serif;
     width: 120px;
     height: 18px;
     color: #333333;
-    font-family: Montserrat;
+    font-family: 'Inconsolata'', serif';
     font-size: 18px;
     font-weight: 700;
     font-style: normal;
