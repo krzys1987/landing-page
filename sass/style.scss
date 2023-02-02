@@ -1,7 +1,20 @@
 /* General */
 
+@font-face {
+    font-family: "droid-serif, serif";
+    font-style: normal;
+    font-weight: 400;
+    scr: url('/vendor/Droid-Serif-Font/DroidSerif-Regular.ttf');
+    scr: url('/vendor/Droid-Serif-Font/DroidSerif-Regular.ttf) format('PostScript font format');
+         url('/vendor/Droid-Serif-Font/DroidSerif-Regular.ttf) format('TrueType Font');
+}
+
+body {
+    font-family: "droid-serif, serif";
+}
+
 html {
-    font-family: 'Inconsolata', monospace;
+    /* font-family: 'Inconsolata', monospace; */
 }
 
 
@@ -38,6 +51,7 @@ html {
 }
 
 .menu-list {
+    float: right;
     overflow: auto;
     display: flex;
     list-style-type: none;
@@ -56,6 +70,10 @@ html {
     clear: both;
 }
 
+.headline {
+    text-align: center;
+
+}
 .button1 {
     color: white;
     background-color: #fed136;
