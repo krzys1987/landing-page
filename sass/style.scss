@@ -8,7 +8,14 @@ html {
 /* first-page */
 
 .first-page {
-    background-image: url('/images/background-Kodilla.png');
+    background-image: url('/images/background-Kodilla.png' class="first-page-background");
+
+}
+
+.first-page-background {
+    max-width: 100%;
+    height: auto;
+
 }
 
 /* use float left instead of flex
