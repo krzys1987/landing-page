@@ -24,6 +24,12 @@ html {
 }
 */
 
+/* .menu {
+    display: flex;
+
+}
+*/
+
 .logo {
     float: left;
     width: 79px;
@@ -33,6 +39,7 @@ html {
 
 .menu-list {
     overflow: auto;
+    display: flex;
     list-style-type: none;
     padding-top: 10px;
 }
