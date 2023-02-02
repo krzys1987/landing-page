@@ -8,20 +8,15 @@ html {
 /* first-page */
 
 .first-page {
-    background-image: url('/images/background-Kodilla.png' class="first-page-background");
+    background-image: url('/images/background-Kodilla.png');
     /* Style for "Tint" */
     width: 1424px;
     height: 729px;
-    /* background-color: #000000; */
-    opacity: 0.5;
+    background-color: #000000;
+    /* opacity: 0.5; */
 
 }
 
-.first-page-background {
-    max-width: auto;
-    height: auto;
-
-}
 
 /* use float left instead of flex
 .navigation {
@@ -33,7 +28,7 @@ html {
     float: left;
     width: 79px;
     height: 28px;
-    padding-top: 10px;
+    padding-top: 15px;
 }
 
 .menu-list {
@@ -43,8 +38,8 @@ html {
 }
 
 .menu-link {
-    display: inline;
-    float: left;
+    display: inline-block;
+    float: right;
     justify-content: space-between;
     color: white;
     font: 'Inconsolata', monospace;
