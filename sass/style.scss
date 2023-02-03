@@ -28,13 +28,6 @@ body {
 
 }
 
-
-/* use float left instead of flex
-.navigation {
-    display: flex;
-}
-*/
-
 /* .menu {
     display: flex;
 
@@ -42,14 +35,15 @@ body {
 */
 
 .logo {
+    display: flex;
     width: 79px;
     height: 28px;
     padding-top: 15px;
 }
 
 .menu-list {
-    overflow: auto;
     display: flex;
+    justify-content: space-between;
     list-style-type: none;
     padding-top: 10px;
 }
