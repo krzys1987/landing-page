@@ -88,6 +88,86 @@ body {
 
 /* services-page */
 
+.service-heading {
+/* Style for "Services" */
+    width: 193px;
+    height: 30px;
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    /* Text style for "S, ervices" */
+    font-style: normal;
+    letter-spacing: -1px;
+    line-height: normal;
+}
+
+.text-secondary {
+    /* Style for "Proin iacu" */
+    width: 296px;
+    height: 17px;
+    color: #777777;
+    font-family: "Droid Serif";
+    font-size: 16px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /* Text style for "P, roin ia" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+.service-image {
+    /* Style for "Circle-1" */
+    width: 68px;
+    height: 67px;
+    border: 3px solid #fed136;
+    background-color: #ffffff;
+
+}
+
+.service-title {
+    /* Style for "E-Commerce" */
+    width: 115px;
+    height: 14px;
+    color: #222222;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 75px;
+    text-align: left;
+    /* Text style for "E, -Commer" */
+    font-style: normal;
+    letter-spacing: -0.45px;
+    line-height: normal;
+}
+
+.service-desc {
+    /* Style for "Proin iacu" */
+    width: 274px;
+    height: 57px;
+    color: #777777;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /* Text style for "P, roin ia" */
+    font-style: normal;
+    letter-spacing: -0.35px;
+    line-height: normal;
+}
 /* portfolio-page */
 
 
@@ -120,7 +200,7 @@ body {
 }
 
 .portfolio-title {
-/* Style for "Ebony & Iv" */
+    /* Style for "Ebony & Iv" */
     width: 120px;
     height: 18px;
     color: #333333;
@@ -131,14 +211,14 @@ body {
     letter-spacing: normal;
     line-height: normal;
     text-align: center;
-/* Text style for "E, bony &" */
+    /* Text style for "E, bony &" */
     font-style: normal;
     letter-spacing: -0.45px;
     line-height: normal;
 }
 
 .portfolio-desc {
-/* Style for "Branding" */
+    /* Style for "Branding" */
     width: 63px;
     height: 15px;
     color: #737373;
@@ -148,7 +228,7 @@ body {
     letter-spacing: normal;
     line-height: normal;
     text-align: center;
-/* Text style for "B, randing" */
+    /* Text style for "B, randing" */
     font-style: normal;
     letter-spacing: normal;
     line-height: normal;
@@ -173,7 +253,7 @@ footer {
     letter-spacing: normal;
     line-height: 22px;
     text-align: left;
-/* Text style for "© Copyrigh" */
+    /* Text style for "© Copyrigh" */
     font-style: normal;
     letter-spacing: -0.35px;
     line-height: normal;
