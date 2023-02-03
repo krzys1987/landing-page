@@ -42,14 +42,12 @@ body {
 */
 
 .logo {
-    float: left;
     width: 79px;
     height: 28px;
     padding-top: 15px;
 }
 
 .menu-list {
-    float: right;
     overflow: auto;
     display: flex;
     list-style-type: none;
@@ -65,7 +63,7 @@ body {
     padding-top: 15px;
     margin-right: 30px;
     justify-content: space-around;
-    clear: both;
+
 }
 
 .header {
