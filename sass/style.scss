@@ -216,13 +216,15 @@ body {
     width: 291px;
     height: 393px;
     background-color: #ffffff;
+    padding: 30px 24px;
 }
 
 .portfolio-image {
     position: absolute;
     /* Style for "Image" */
-    width: 291px;
-    height: 300px;
+    object-fit: cover;
+    width: 80%; /* 291px */
+    height: 60%; /* 300px; */
     border: 5px #f7f7f7;
  }
 
@@ -237,7 +239,7 @@ body {
 .portfolio-title {
     /* Style for "Ebony & Iv" */
     width: 120px;
-    height: 18px;
+    height: 10%;
     color: #333333;
     font-family: 'Inconsolata', monospace;
     font-size: 18px;
@@ -255,7 +257,7 @@ body {
 .portfolio-desc {
     /* Style for "Branding" */
     width: 63px;
-    height: 15px;
+    height: 20%;
     color: #737373;
     font-family: "Droid Serif";
     font-size: 14px;
