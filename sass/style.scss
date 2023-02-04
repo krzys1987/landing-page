@@ -241,7 +241,7 @@ li a {
     /* Style for "Image" */
     object-fit: scale-down;
     width: 80%; /* 291px */
-    height: 40%; /* 300px; */
+    max-height: 30%; /* 300px; */
     border: 5px #f7f7f7;
  }
 
