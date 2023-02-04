@@ -240,10 +240,11 @@ li a {
     /* position: absolute; */
     /* Style for "Image" */
     object-fit: scale-down;
+    background-size: cover;
     background-position: top;
     background-size: auto auto;
-    width: 80%; /* 291px */
-    max-height: 30%; /* 300px; */
+    /* width: 80%; /* 291px */
+    /* max-height: 30%; /* 300px; */
     border: 5px #f7f7f7;
  }
 
