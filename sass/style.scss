@@ -222,7 +222,7 @@ body {
 .portfolio-image {
     /* position: absolute; */
     /* Style for "Image" */
-    object-fit: cover;
+    object-fit: scale-down;
     width: 80%; /* 291px */
     height: 40%; /* 300px; */
     border: 5px #f7f7f7;
@@ -271,7 +271,7 @@ footer {
 
 .copywright {
     display: flex;
-    flex-direction: column;
+    flex: nowrap;
     width: 255px;
     height: 14px;
     color: #555555;
@@ -291,6 +291,7 @@ footer {
 
 .socials {
     display: inline-block;
+    flex: nowrap;
     flex-direction: row;
     margin-left: 699px;
     margin-right: 840px;
