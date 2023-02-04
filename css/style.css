@@ -1,17 +1,287 @@
-/* Error: expected "{".
- *     ,
- * 219 |     overflow
- *     |             ^
- *     '
- *   sass\style.scss 219:13  root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "{".\a     \2577 \a 219 \2502      overflow\d\a     \2502              ^\a     \2575 \a   sass\\style.scss 219:13  root stylesheet';
+@charset "UTF-8";
+/* General */
+@font-face {
+  font-family: "droid-serif, serif";
+  font-style: normal;
+  font-weight: 400;
+  scr: url("/vendor/Droid-Serif-Font/DroidSerif-Regular.ttf");
+  scr: url("/vendor/Droid-Serif-Font/DroidSerif-Bold.ttf");
+  scr: url("/vendor/Droid-Serif-Font/DroidSerif-Italic.ttf");
+  scr: url("/vendor/Droid-Serif-Font/DroidSerif-BoldItalic.ttf");
 }
+body {
+  font-family: "droid-serif, serif";
+}
+
+/* first-page */
+.first-page {
+  background-image: url("/images/background-Kodilla.png");
+  /* Style for "Tint" */
+  width: 1424px;
+  height: 729px;
+  background-color: #000000;
+  /* opacity: 0.5; */
+}
+
+/* .menu {
+    display: flex;
+
+}
+*/
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  /* justify-content: ; */
+}
+
+.logo {
+  display: flex;
+  width: 79px;
+  height: 28px;
+  padding-top: 30px;
+}
+
+.menu-list {
+  display: flex;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.menu-link {
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 30px;
+  margin-right: 30px;
+  justify-content: space-around;
+}
+
+.header {
+  text-align: center;
+}
+
+.page-title {
+  color: white;
+  padding-top: 20px;
+}
+
+.page-subtitle {
+  color: white;
+}
+
+.button1 {
+  color: white;
+  background-color: #fed136;
+  width: 240px;
+  height: 65px;
+  padding: 25 51 26 51;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+}
+
+/* services-page */
+.servie-page {
+  background-color: white;
+}
+
+.service-heading {
+  /* Style for "Services" */
+  width: 193px;
+  height: 30px;
+  color: #222222;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 75px;
+  text-align: center;
+  text-transform: uppercase;
+  /* Text style for "S, ervices" */
+  font-style: normal;
+  letter-spacing: -1px;
+  line-height: normal;
+  padding-top: 25px;
+}
+
+.text-secondary {
+  /* Style for "Proin iacu" */
+  width: 296px;
+  height: 17px;
+  color: #777777;
+  font-family: "Droid Serif";
+  font-size: 16px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  /* Text style for "P, roin ia" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+.service-image {
+  /* Style for "Circle-1" */
+  width: 68px;
+  height: 67px;
+  background-color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.servis-img {
+  width: 68px;
+  height: 67px;
+  /* border: 3px solid #fed136; */
+}
+
+.service-title {
+  /* Style for "E-Commerce" */
+  width: 115px;
+  height: 14px;
+  color: #222222;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 75px;
+  text-align: left;
+  /* Text style for "E, -Commer" */
+  font-style: normal;
+  letter-spacing: -0.45px;
+  line-height: normal;
+  padding: 20px;
+}
+
+.service-desc {
+  /* Style for "Proin iacu" */
+  width: 274px;
+  height: 57px;
+  color: #777777;
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  /* Text style for "P, roin ia" */
+  font-style: normal;
+  letter-spacing: -0.35px;
+  line-height: normal;
+}
+
+/* portfolio-page */
+.portfolio-page {
+  /* Style for "Background" */
+  width: 1557px;
+  height: 1218px;
+  background-color: #f7f7f7;
+}
+
+.col-lg-12 {
+  padding: 20 0;
+}
+
+.col-md-4 {
+  /* Style for "Background" */
+  position: relative;
+  width: 291px;
+  height: 393px;
+  background-color: #ffffff;
+}
+
+.portfolio-image {
+  position: absolute;
+  /* Style for "Image" */
+  width: 291px;
+  height: 300px;
+  border: 5px #f7f7f7;
+}
+
+/* .portfolio-file {
+    position: absolute;
+    width: auto;
+    height: auto;
+}
+
+*/
+.portfolio-title {
+  /* Style for "Ebony & Iv" */
+  width: 120px;
+  height: 18px;
+  color: #333333;
+  font-family: "Inconsolata", monospace;
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  /* Text style for "E, bony &" */
+  font-style: normal;
+  letter-spacing: -0.45px;
+  line-height: normal;
+}
+
+.portfolio-desc {
+  /* Style for "Branding" */
+  width: 63px;
+  height: 15px;
+  color: #737373;
+  font-family: "Droid Serif";
+  font-size: 14px;
+  font-style: italic;
+  letter-spacing: normal;
+  line-height: normal;
+  text-align: center;
+  /* Text style for "B, randing" */
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: normal;
+}
+
+/* Footer */
+footer {
+  display: flex;
+}
+
+.copywright {
+  display: flex;
+  flex-direction: column;
+  width: 255px;
+  height: 14px;
+  color: #555555;
+  font-family: "Inconsolata", monospace;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 22px;
+  text-align: left;
+  /* Text style for "© Copyrigh" */
+  font-style: normal;
+  letter-spacing: -0.35px;
+  line-height: normal;
+}
+
+.socials {
+  display: inline-block;
+  margin-left: 699px;
+  margin-right: 840px;
+  list-style-type: none;
+  padding: 53 0 53 0;
+}
+
+.socials i {
+  width: 41px;
+  height: 40px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInN0eWxlLmNzcyIsIi4uL3Nhc3Mvc3R5bGUuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxnQkFBZ0I7QUNBaEIsWUFBQTtBQUVBO0VBQ0ksaUNBQUE7RUFDQSxrQkFBQTtFQUNBLGdCQUFBO0VBQ0EsMkRBQUE7RUFDQSx3REFBQTtFQUNBLDBEQUFBO0VBQ0EsOERBQUE7QURDSjtBQ0dBO0VBQ0ksaUNBQUE7QURESjs7QUNLQSxlQUFBO0FBRUE7RUFDSSx1REFBQTtFQUNBLHFCQUFBO0VBQ0EsYUFBQTtFQUNBLGFBQUE7RUFDQSx5QkFBQTtFQUNBLGtCQUFBO0FESEo7O0FDT0E7Ozs7Q0FBQTtBQU1BO0VBQ0ksYUFBQTtFQUNBLG1CQUFBO0VBQ0EsaUJBQUE7RUFDQSx1QkFBQTtBRExKOztBQ1FBO0VBQ0ksYUFBQTtFQUNBLFdBQUE7RUFDQSxZQUFBO0VBQ0EsaUJBQUE7QURMSjs7QUNRQTtFQUNJLGFBQUE7RUFDQSxxQkFBQTtFQUNBLGlCQUFBO0FETEo7O0FDU0E7RUFDSSxxQkFBQTtFQUNBLFlBQUE7RUFDQSxpQkFBQTtFQUNBLGtCQUFBO0VBQ0EsaUJBQUE7RUFDQSxrQkFBQTtFQUNBLDZCQUFBO0FETko7O0FDVUE7RUFDSSxrQkFBQTtBRFBKOztBQ1dBO0VBQ0ksWUFBQTtFQUNBLGlCQUFBO0FEUko7O0FDWUE7RUFDSSxZQUFBO0FEVEo7O0FDYUE7RUFDSSxZQUFBO0VBQ0EseUJBQUE7RUFDQSxZQUFBO0VBQ0EsWUFBQTtFQUNBLG9CQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxxQ0FBQTtFQUNBLGtCQUFBO0FEVko7O0FDY0Esa0JBQUE7QUFFQTtFQUNJLHVCQUFBO0FEWko7O0FDY0E7RUFDQSx5QkFBQTtFQUNJLFlBQUE7RUFDQSxZQUFBO0VBQ0EsY0FBQTtFQUNBLHVCQUFBO0VBQ0EsZUFBQTtFQUNBLGdCQUFBO0VBQ0Esa0JBQUE7RUFDQSxzQkFBQTtFQUNBLGlCQUFBO0VBQ0Esa0JBQUE7RUFDQSx5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 */
