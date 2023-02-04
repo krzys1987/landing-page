@@ -204,6 +204,13 @@ li a {
 }
 /* portfolio-page */
 
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
 
 .portfolio-page {
     /* Style for "Background" */
@@ -256,7 +263,7 @@ li a {
     line-height: normal;
 }
 
-.portfolio-desc {
+.portfolio-info {
     /* Style for "Branding" */
     width: 63px;
     height: 40%;
