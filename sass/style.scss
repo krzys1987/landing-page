@@ -220,11 +220,11 @@ body {
 }
 
 .portfolio-image {
-    position: absolute;
+    /* position: absolute; */
     /* Style for "Image" */
     object-fit: cover;
     width: 80%; /* 291px */
-    height: 60%; /* 300px; */
+    height: 40%; /* 300px; */
     border: 5px #f7f7f7;
  }
 
@@ -249,7 +249,7 @@ body {
 .portfolio-desc {
     /* Style for "Branding" */
     width: 63px;
-    height: 20%;
+    height: 40%;
     color: #737373;
     font-family: "Droid Serif";
     font-size: 14px;
