@@ -113,98 +113,37 @@ li a {
     background-color: white;
 }
 .service-heading {
-/* Style for "Services" */
-    text-align: center;
-    width: 193px;
-    height: 30px;
-    color: #222222;
-    font-family: Montserrat;
-    font-size: 40px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 75px;
-    text-align: center;
-    text-transform: uppercase;
-    /* Text style for "S, ervices" */
-    font-style: normal;
-    letter-spacing: -1px;
-    line-height: normal;
-    padding-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .text-secondary {
-    /* Style for "Proin iacu" */
-    text-align: center;
-    width: 296px;
-    height: 17px;
-    color: #777777;
-    font-family: "Droid Serif";
-    font-size: 16px;
-    font-style: italic;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: center;
-    /* Text style for "P, roin ia" */
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.service-image {
-    /* Style for "Circle-1" */
+.servis-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 68px;
     height: 67px;
     background-color: #ffffff;
     padding-bottom: 20px;
-
 }
-
-.servis-img {
-        width: 68px;
-        height: 67px;
-        /* border: 3px solid #fed136; */
-}
-
-
-
 
 .service-title {
-    /* Style for "E-Commerce" */
-    width: 115px;
-    height: 14px;
-    color: #222222;
-    font-family: Montserrat;
-    font-size: 18px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: 75px;
-    text-align: left;
-    /* Text style for "E, -Commer" */
-    font-style: normal;
-    letter-spacing: -0.45px;
-    line-height: normal;
-    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .service-desc {
-    /* Style for "Proin iacu" */
-    width: 274px;
-    height: 57px;
-    color: #777777;
-    font-family: "Roboto Slab";
-    font-size: 14px;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
     text-align: center;
-    /* Text style for "P, roin ia" */
-    font-style: normal;
-    letter-spacing: -0.35px;
-    line-height: normal;
 }
+
 /* portfolio-page */
 
 /* Responsive layout - makes a two column-layout instead of four columns */
