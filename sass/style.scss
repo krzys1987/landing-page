@@ -32,30 +32,32 @@ body {
     display: flex;
 
 }
-*/
+/* Added flex to Navigation instead
 
 .container-flex {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     /* justify-content: ; */
-}
+
+
 
 .logo {
-	display: flex;
-	/* * properties from https://inspect.ceros.com/
-    width: 79px;
+	width: 79px;
 	height: 28px;
 	margin-right: 15px;
-	padding-top: 30px; */
+	padding-top: 30px;
 }
+
+
 
 .menu-list {
     display: flex;
     margin-right: 40px;
     list-style-type: none;
     padding-top: 10px;
-    margin-right: 700px; /* Change it! I just put it hard way, it's not right */
+    color: white;
+    /* margin-right: 700px; /* Change it! I just put it hard way, it's not right */
 
 }
 
