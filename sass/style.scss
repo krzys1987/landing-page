@@ -148,7 +148,7 @@ li a {
 
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 800px) {
-    .column {
+    .service-list {
       flex: 50%;
       max-width: 50%;
     }
@@ -156,7 +156,7 @@ li a {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    .column {
+    .service-list {
       flex: 100%;
       max-width: 100%;
     }
@@ -164,9 +164,13 @@ li a {
 
 .portfolio-page {
     /* Style for "Background" */
-    width: 1557px;
-    height: 1218px;
-    background-color: #f7f7f7;
+    /* width: 1557px;
+    height: 1218px; */
+    background-color: #909090;
+}
+
+.portfolio-list {
+    background-color: white;
 }
 
 .row {
@@ -184,6 +188,7 @@ li a {
     height: 393px;
     background-color: #ffffff;
     padding: 30px 24px;
+    border-color: #909090;
 }
 
 .portfolio-image {
