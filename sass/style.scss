@@ -77,7 +77,6 @@ li a {
 
 }
 
-
 .header-parent {
     display: flex;
 }
@@ -163,9 +162,6 @@ li a {
   }
 
 .portfolio-page {
-    /* Style for "Background" */
-    /* width: 1557px;
-    height: 1218px; */
     background-color: #909090;
 }
 
@@ -187,50 +183,14 @@ li a {
  }
 
 .portfolio-title {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     text-align: center;
     font-weight: bold;
-    /* position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-weight: bold; */
-
-    /* Style for "Ebony & Iv"
-    height: 10%;
-    color: #333333;
-    font-family: 'Inconsolata', monospace;
-    font-size: 18px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: center;
-    /
-    font-style: normal;
-    letter-spacing: -0.45px;
-    line-height: normal; */
 
 }
 
-.portfolio-info {
-    /* Style for "Branding" */
-    width: 63px;
-    height: 40%;
-    background-position: bottom;
-    color: #737373;
-    font-family: "Droid Serif";
-    font-size: 14px;
-    font-style: italic;
-    letter-spacing: normal;
-    line-height: normal;
+.portfolio-desc {
     text-align: center;
-    /* Text style for "B, randing" */
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
+
 }
 
 .row {
@@ -271,13 +231,10 @@ footer {
     letter-spacing: normal;
     line-height: 22px;
     text-align: left;
-    /* Text style for "© Copyrigh" */
-    font-style: normal;
-    letter-spacing: -0.35px;
-    line-height: normal;
+
 
 }
-
+/* Put it hard way, inserted a photo
 .socials {
     display: inline-block;
     flex: nowrap;
@@ -294,4 +251,4 @@ footer {
     height: 40px;
     border-radius: 30px;
 
-}
+} */
