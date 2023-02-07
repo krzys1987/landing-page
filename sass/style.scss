@@ -171,6 +171,66 @@ li a {
 
 .portfolio-list {
     background-color: white;
+	border: 20px solid;
+	border-color: #909090;
+}
+
+
+.portfolio-image {
+    /* position: relative; */
+    overflow: hidden;
+    object-fit: scale-down;
+    background-size: cover;
+    background-position: top;
+    background-size: auto auto;
+    border: 5px #f7f7f7;
+ }
+
+.portfolio-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    /* position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold; */
+
+    /* Style for "Ebony & Iv"
+    height: 10%;
+    color: #333333;
+    font-family: 'Inconsolata', monospace;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /
+    font-style: normal;
+    letter-spacing: -0.45px;
+    line-height: normal; */
+
+}
+
+.portfolio-info {
+    /* Style for "Branding" */
+    width: 63px;
+    height: 40%;
+    background-position: bottom;
+    color: #737373;
+    font-family: "Droid Serif";
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    /* Text style for "B, randing" */
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
 }
 
 .row {
@@ -191,53 +251,6 @@ li a {
     border-color: #909090;
 }
 
-.portfolio-image {
-    /* position: absolute; */
-    /* Style for "Image" */
-    object-fit: scale-down;
-    background-size: cover;
-    background-position: top;
-    background-size: auto auto;
-    /* width: 80%; /* 291px */
-    /* max-height: 30%; /* 300px; */
-    border: 5px #f7f7f7;
- }
-
-.portfolio-title {
-    /* Style for "Ebony & Iv" */
-    width: 120px;
-    height: 10%;
-    color: #333333;
-    font-family: 'Inconsolata', monospace;
-    font-size: 18px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: center;
-    /* Text style for "E, bony &" */
-    font-style: normal;
-    letter-spacing: -0.45px;
-    line-height: normal;
-}
-
-.portfolio-info {
-    /* Style for "Branding" */
-    width: 63px;
-    height: 40%;
-    background-position: bottom;
-    color: #737373;
-    font-family: "Droid Serif";
-    font-size: 14px;
-    font-style: italic;
-    letter-spacing: normal;
-    line-height: normal;
-    text-align: center;
-    /* Text style for "B, randing" */
-    font-style: normal;
-    letter-spacing: normal;
-    line-height: normal;
-}
 /* Footer */
 
 footer {
