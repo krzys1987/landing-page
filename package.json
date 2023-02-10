@@ -1,7 +1,7 @@
 {
   "name": "taskrunner",
   "version": "1.0.0",
-  "description": "",
+  "description": "Initialization GIT for landing-page project - ex. 4.6 Kodilla",
   "main": "index.html",
   "scripts": {
     "init-project": "npm install && npm-run-all init:*",
@@ -33,5 +33,13 @@
     "postcss-cli": "^8.3.1",
     "sass": "^1.57.1",
     "task-runner": "^0.0.8"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krzys1987/landing-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krzys1987/landing-page/issues"
+  },
+  "homepage": "https://github.com/krzys1987/landing-page#readme"
 }
