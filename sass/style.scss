@@ -187,7 +187,7 @@ li a {
     background-size: cover;
     background-position: top;
     background-size: auto auto;
-    /* border: 5px #f7f7f7; */
+
  }
 
 .portfolio-title {
@@ -201,21 +201,12 @@ li a {
 
 }
 
-/*
-.row {
-    padding: 10px 0;
-}
-*/
-
 .service-list2 {
     padding: 20 0;
 }
 
 .service-list {
-    /* Style for "Background" */
     position: relative;
-    width: 291px;
-    height: 393px;
     background-color: #ffffff;
     padding: 30px 24px;
     border-color: #909090;
@@ -250,16 +241,12 @@ footer {
     display: flex;
     flex-direction: row;
     word-spacing: 30px;
-    /* margin-left: 699px;
-    margin-right: 840px; */
     list-style-type: none;
     padding: 53 0 53 0;
 
 }
 
 .socials i {
-    /* width: 41px;
-    height: 40px; */
-    border-radius: 50px;
+   border-radius: 50px;
 
 }
