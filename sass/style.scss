@@ -243,19 +243,28 @@ footer {
 
 .socials {
     display: flex;
-    font-size: 14px;
+    font-size: 12px;
     flex-direction: row;
-    word-spacing: 30px;
+    /* word-spacing: 30px; */
     list-style-type: none;
     padding: 53 0 53 0;
 
 }
 
-.socials i {
-    height: 40px;
-    width: 40px;
-    background-color: lightgray;
-    border-radius: 50px;
-    font-size: 30px;
+.socials li {
+    font-size: 0px;
+}
 
+.socials i {
+    height: 30px;
+    width: 30px;
+    background-color: lightgray;
+    border-radius: 60% 60%;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.socials i:hover {
+    transform: scale(3);
 }
