@@ -223,6 +223,7 @@ li a {
 
 footer {
     display: flex;
+    position: relative;
 
 }
 
@@ -243,6 +244,7 @@ footer {
 
 
 .socials {
+    position: absolute;
     display: flex;
     font-size: 12px;
     flex-direction: row;
