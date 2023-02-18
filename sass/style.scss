@@ -5,19 +5,22 @@
 }
 
 section {
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 35px;
+    padding-bottom: 35px;
 }
 @font-face {
-    font-family: "droid-serif, serif";
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/*    font-family: "droid-serif, serif";
     font-style: normal;
     font-weight: 400;
     scr: url('/vendor/Droid-Serif-Font/DroidSerif-Regular.ttf');
     scr: url('/vendor/Droid-Serif-Font/DroidSerif-Bold.ttf');
     scr: url('/vendor/Droid-Serif-Font/DroidSerif-Italic.ttf');
     scr: url('/vendor/Droid-Serif-Font/DroidSerif-BoldItalic.ttf');
-
-}
+*/
 
 body {
     font-family: "droid-serif, serif";
@@ -38,6 +41,10 @@ body {
 
 .navigation {
     padding: 10px 0 10px;
+}
+
+.navigation li {
+    text-decoration: none;
 }
 
 /*Use CSS Flexbox to create a responsive layout */
@@ -69,6 +76,7 @@ li a {
     color: white;
     text-align: center;
     margin-left: auto;
+    text-decoration: none;
 }
 
 .menu-link {
@@ -107,10 +115,13 @@ li a {
 
 }
 
-.button1 {
+.button {
     color: white;
     background-color: #fed136;
     text-align: center;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
 
 }
 
@@ -119,6 +130,11 @@ li a {
 .servie-page {
     background-color: white;
 }
+
+.services-headlines {
+    padding-bottom: 20px;
+}
+
 .service-title {
     display: flex;
     justify-content: center;
@@ -129,6 +145,7 @@ li a {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: grey;
 }
 
 .servis-img {
@@ -138,7 +155,7 @@ li a {
     width: 68px;
     height: 67px;
     background-color: #ffffff;
-    padding-bottom: 20px;
+
 }
 
 .service-title {
@@ -169,6 +186,11 @@ li a {
     }
   }
 
+.portfolio-info {
+    padding: 20px;
+
+}
+
 .portfolio-page {
     background-color: #909090;
 }
@@ -180,6 +202,7 @@ li a {
 
 .portfolio-list {
     background-color: white;
+    margin-bottom: 20px;
 
 }
 
@@ -198,13 +221,16 @@ li a {
 .portfolio-title {
     text-align: center;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 
 }
 
 .portfolio-desc {
     text-align: center;
+    margin: 0;
     padding-top: 10px;
-    padding-bottom: 10px;
+    color: lightgray;
 
 }
 
@@ -221,9 +247,10 @@ li a {
 
 /* Footer */
 
-.footer {
+footer {
     display: flex;
     position: relative;
+    padding: 20px 0;
 
 }
 
@@ -263,6 +290,7 @@ li a {
 
 .socials i {
     height: 45px;
+    line-height: 45px;
     width: 45px;
     background-color: lightgray;
     border-radius: 60% 60%;
@@ -271,6 +299,11 @@ li a {
 
 
 
+
+}
+
+.socials li {
+    padding: 0 5px;
 }
 
 .socials i:hover {
