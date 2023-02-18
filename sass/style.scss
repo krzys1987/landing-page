@@ -298,4 +298,6 @@ footer {
 
 .socials i:hover {
     transform: scale(3);
+    transition-duration: 5s;
+    transition:  width 2s, height 2s, transform 2s;
 }
